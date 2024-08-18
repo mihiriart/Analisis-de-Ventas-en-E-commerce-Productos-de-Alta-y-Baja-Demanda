@@ -1,0 +1,38 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "La base de datos que  trabaje es un conjunto de datos relacionado con el análisis de ventas de un comercio electrónico.  Descripción general de la estructura de los datos:\n",
+    "\n",
+    "Tamaño del conjunto de datos: 1000 entradas (filas).\n",
+    "Número de columnas: 18 columnas.\n",
+    "Columnas:\n",
+    "\n",
+    "product_id: Identificación única para cada producto.\n",
+    "\n",
+    "product_name: Nombre del producto.\n",
+    "\n",
+    "category: Categoría a la que pertenece el producto, como \"Clothing\", \"Home & Kitchen\", \"Toys\", etc.\n",
+    "\n",
+    "price: Precio del producto.\n",
+    "\n",
+    "review_score: Puntuación promedio de las reseñas que ha recibido el producto.\n",
+    "\n",
+    "review_count: Número de reseñas recibidas.\n",
+    "\n",
+    "sales_month_1 a sales_month_12: Número de ventas mensuales del producto durante un período de 12 meses.\n",
+    "\n",
+    "Este conjunto de datos está diseñado para analizar las ventas mensuales de diversos productos, sus precios, y cómo las reseñas de los usuarios pueden estar relacionadas con el rendimiento de ventas. Las columnas de ventas (sales_month_1 a sales_month_12) permiten analizar la evolución de las ventas a lo largo del año para cada producto."
+   ]
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "name": "python"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
